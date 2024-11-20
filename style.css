@@ -11,7 +11,8 @@ body{
    
    background: rgb(2,0,36);
    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(84,84,138,1) 35%, rgba(92,152,164,1) 100%);
-
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 .view{
@@ -23,7 +24,6 @@ body{
     max-width: 430px;
     margin: 0 auto;
 
-    padding: 5px;
 
     animation: background-anim;
     animation-duration: 5s;
