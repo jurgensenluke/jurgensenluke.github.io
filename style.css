@@ -1,7 +1,6 @@
 body{
     margin:0px;
     width:100vw;
-    height:98vh;
     overflow:auto;
 
    font-family: "Geist Mono", monospace;
@@ -21,7 +20,7 @@ body{
 
     min-height: 100%;
     min-width: 320px;
-    max-width: 450px;
+    max-width: 430px;
     margin: 0 auto;
 
     padding: 5px;
