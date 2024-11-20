@@ -1,0 +1,90 @@
+body{
+   margin: 0;
+   padding: 0;
+
+   font-family: "Geist Mono", monospace;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+
+   
+   background: rgb(2,0,36);
+   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(84,84,138,1) 35%, rgba(92,152,164,1) 100%);
+
+}
+
+.view{
+    max-height: 1000px;
+    min-height: 600px;
+    max-width: 450px;
+
+    padding: 5px;
+
+    animation: background-anim;
+    animation-duration: 5s;
+
+    margin: auto;
+    overflow: hidden;
+}
+
+.bubble{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+button{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.white{
+    color: white;
+}
+
+.geist-mono-font {
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.float-in-left{
+    animation: floatin;
+    animation-duration: 1.0s;
+}
+
+.float-in-right{
+    animation: floatin-2;
+    animation-duration: 1.0s;
+}
+
+@keyframes floatin{
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes floatin-2{
+    0%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes background-anim{
+    0%{
+        background-position: 10% 0%;
+    }
+    100%{
+        background-position: 0% 90%;
+    }
+}
