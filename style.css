@@ -1,6 +1,7 @@
 body{
     margin:0px;
     width:100vw;
+    height: auto;
     overflow:auto;
 
    font-family: "Geist Mono", monospace;
